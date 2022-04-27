@@ -1,0 +1,82 @@
+body{
+  font-family : helvetica;
+  justify-content: flex-start;
+  display: block;
+
+}
+#nome-prof{
+  color: navy;
+}
+#flex-container{
+  display: flex;
+  justify-content: start;
+}
+#flex-container1{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+#sinistra{
+  width: 20%;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: left;
+}
+#destra{
+  border: 1px solid black;
+  background-color: #dedede;
+  width: 70%;
+  float:right;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#fondo{
+  margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#ricevimento{
+	color: white;
+	background-color: rgb(202, 66, 59);
+	padding: 30px;
+}
+.redhr{
+	border: 7px solid red;
+}
+.titolo{
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+h4{
+  color: white;
+  background-color: teal;
+}
+img{
+  width: 200px;
+}
+a{
+  color: navy;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+  background-color: yellow;
+}
+#redBar{
+  border: 7px solid rgb(241, 83, 83);
+ 
+}
+.link2{
+	color: black;
+}
+.titlink{
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+.lastul{
+	list-style-type: square;
+}
